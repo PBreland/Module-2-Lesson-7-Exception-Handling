@@ -2,13 +2,13 @@
 
 
 try:
-    temp = int(input("Enter temp in Farenheit: "))
-    celcius = (temp - 32) * 5/9
+    temp = int(input("Enter temp in Farenheit: "))          #Task 1: Asking the user to input a number.
+    celcius = (temp - 32) * 5/9                          #Task 2: Writing a formula for converting farenheit to celcius.
 except ValueError:
     print("That isn't a valid number. Please try again.")
-else:
+else:                                                       #Task 3: Implimenting an else block.
     print(f"{temp} degrees Farenheit is {celcius} degrees Celcius.")
-finally:
+finally:                                            #Task 4: Adding a Finally Block.
     print("Thanks for using the Weather Forecasting app.")
     
 
